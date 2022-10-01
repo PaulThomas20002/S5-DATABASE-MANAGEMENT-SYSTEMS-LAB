@@ -1,0 +1,2 @@
+# S5-DATABASE-MANAGEMENT-SYSTEMS-LAB
+This course helps the learners to get practical exposure on database creation, SQL queries creation, transaction processing and NoSQL &amp; MongoDB based operations. The course enables the students to create, manage and administer the databases, develop necessary tools for the design and development of the databases, and to understand emerging technologies to handle Big Data.
