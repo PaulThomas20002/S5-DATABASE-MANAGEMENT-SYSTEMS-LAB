@@ -1,0 +1,22 @@
+SQL> @trigger2
+Table dropped.
+Table created.
+Trigger created.
+SQL> insert into Account values(100, 'Alice', 200);
+1 row created.
+SQL> insert into Account values(104, 'Bob', 500);
+1 row created.
+SQL> select * from Account;
+
+	ID NAME 		       BAL
+---------- -------------------- ----------
+       100 Alice		       200
+       104 Bob			       500
+SQL> insert into Account values(102, 'Cindy', -500);
+insert into Account values(102, 'Cindy', -500)
+            *
+ERROR at line 1:
+ORA-20000: Balance cannot be less than zero
+ORA-06512: at "SYSTEM.TRIGGER2", line 6
+ORA-04088: error during execution of trigger 'SYSTEM.TRIGGER2'
+SQL>

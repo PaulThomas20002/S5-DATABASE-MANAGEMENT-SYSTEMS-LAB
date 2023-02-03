@@ -1,0 +1,13 @@
+SQL> @trigger3
+Table dropped.
+Table created.
+1 row created.
+Trigger created.
+SQL> insert into Student values(103, 'Alice', 'Address2');
+insert into Student values(103, 'Alice', 'Address2')
+            *
+ERROR at line 1:
+ORA-20000: Cannot insert record on weekdays
+ORA-06512: at "SYSTEM.TRIGGER3", line 4
+ORA-04088: error during execution of trigger 'SYSTEM.TRIGGER3'
+SQL>
