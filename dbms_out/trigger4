@@ -1,0 +1,32 @@
+SQL> @trigger4
+Table dropped.
+Table dropped.
+Table dropped.
+Table created.
+Table created.
+Table created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+     ST_ID    BOOK_ID ISSUE_DA RETURN_D
+---------- ---------- -------- --------
+       100	    1 01-01-22 01-02-22
+       101	    2 01-01-22 01-03-22
+
+
+     ST_ID NAME 		CLASS		 FINE
+---------- -------------------- ---------- ----------
+       100 Alice		CSE		    0
+       101 Bob			CSE		    0
+
+
+    BOOKID TITLE		NO_OF_COPIES	  PRICE
+---------- -------------------- ------------ ----------
+	 1 Data Structure		  10	   1000
+	 2 Java - Complete ref		  10	   1000
+
+Trigger created.
+SQL> 

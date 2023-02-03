@@ -1,0 +1,22 @@
+SQL> @trigger5
+Table dropped.
+Table created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+
+	ID      NAME 		     AGE          ADDRESS         SAL
+---------- ---------------- ---------- ---------------- ----------
+	 1      Alice			 20         Address1          10000
+	 2      Bob				 30         Address2          20000
+	 3      Cindy			 40         Address3          30000
+
+	ID      NAME 		     AGE          ADDRESS         SAL
+---------- ---------------- ---------- ---------------- ----------     
+	 4      Sam				 50         Address4          40000
+	 5      Eric 			 60         Address5          50000
+
+Warning: Trigger created with compilation errors.
+SQL>
